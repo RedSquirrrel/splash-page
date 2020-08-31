@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: #ffefba;
+  background: -webkit-linear-gradient(to right, #ffffff, #ffefba);
+  background: linear-gradient(to right, #ffffff, #ffefba);
+  overflow-x: hidden;
+}
+
+.wrapper {
+  position: relative;
+  width: 1440px;
+  height: 1382px;
+  margin: auto;
+  color: #54575a;
+}
+
+.brand-logo {
+  position: absolute;
+  width: 193px;
+  height: 47.64px;
+  left: 221px;
+  top: 50.25px;
+}
+
+.title {
+  position: absolute;
+  width: 458px;
+  height: 135px;
+  left: 221px;
+  top: 236px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 67px;
+}
+
+.text {
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  left: 221px;
+  top: 403px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.app-store-btn {
+  position: absolute;
+  left: 221px;
+  top: 531px;
+}
+
+.app-store-btn img {
+  width: 138.44px;
+  height: 46.28px;
+}
+
+.google-play-btn {
+  position: absolute;
+  left: 381.81px;
+  top: 531px;
+}
+
+.google-play-btn img {
+  width: 156.19px;
+  height: 46.28px;
+}
+
+.main-image-container {
+  position: absolute;
+  left: 683.28px;
+  top: 229.73px;
+}
+
+.main-image-container img {
+  height: 411.15px;
+}
+
+.profile-img {
+  position: absolute;
+  height: 444px;
+  left: 737px;
+  right: 479px;
+  top: 686px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.orders-img {
+  position: absolute;
+  height: 470px;
+  left: 479px;
+  right: 737px;
+  top: 913px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.home-img {
+  position: absolute;
+  height: 470px;
+  left: 995px;
+  right: 221px;
+  top: 908px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.cart-img {
+  position: absolute;
+  height: 222px;
+  left: 221px;
+  right: 995px;
+  top: 1157px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.product-img {
+  position: absolute;
+  height: 222px;
+  left: 737px;
+  right: 479px;
+  top: 1157px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+/* background toggles */
+.background-toggles {
+  position: absolute;
+  right: 150px;
+  top: 70px;
+  display: flex;
+}
+
+/* tag every child  */
+.background-toggles > div {
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+/* backgrounds */
+.background-1 {
+  background: #6d6027;
+  background: -webkit-linear-gradient(to right, #d3cbb8, #6d6027);
+  background: linear-gradient(to right, #d3cbb8, #6d6027);
+}
+
+.background-2 {
+  background: #ffefba;
+  background: -webkit-linear-gradient(to right, #ffffff, #ffefba);
+  background: linear-gradient(to right, #ffffff, #ffefba);
+}
+
+.background-3 {
+  background: #3e5151;
+  background: -webkit-linear-gradient(to right, #decba4, #3e5151);
+  background: linear-gradient(to right, #decba4, #3e5151);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background: whitesmoke;
+  }
+
+  .wrapper {
+    width: 90%;
+    height: 1100px;
+  }
+
+  .brand-logo {
+    width: 150px;
+    left: 200px;
+  }
+
+  .title {
+    left: 200px;
+    font-size: 3rem;
+    line-height: 57px;
+  }
+
+  .text {
+    left: 200px;
+  }
+
+  .app-store-btn {
+    left: 200px;
+  }
+
+  .app-store-btn img {
+    width: 130px;
+    height: 45px;
+  }
+
+  .google-play-btn {
+    left: 361.81px;
+  }
+
+  .google-play-btn img {
+    width: 130px;
+    height: 45px;
+  }
+
+  .main-image-container {
+    left: 683.28px;
+    top: 229.73px;
+  }
+
+  .main-image-container img {
+    height: 230px;
+  }
+
+  .profile-img {
+    height: 444px;
+    left: 537px;
+    right: 479px;
+    top: 900px;
+  }
+
+  .orders-img {
+    height: 470px;
+    left: 279px;
+    right: 737px;
+    top: 1200px;
+  }
+
+  .home-img {
+    height: 470px;
+    left: 795px;
+    right: 221px;
+    top: 1100px;
+  }
+
+  .cart-img {
+    height: 222px;
+    left: 21px;
+    right: 995px;
+    top: 1300px;
+  }
+
+  .product-img {
+    height: 222px;
+    left: 537px;
+    right: 479px;
+    top: 1300px;
+  }
+
+  /* background toggles */
+  .background-toggles {
+    position: absolute;
+    right: -150px;
+    top: 70px;
+  }
+
+  /* tag every child  */
+  .background-toggles > div {
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+  }
+}
